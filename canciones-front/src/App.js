@@ -1,14 +1,16 @@
 import Header from "./components/Header";
 import Formulario from "./components/Formulario";
-import { Container } from '@nextui-org/react';
+import ResultadoLyric from "./components/ResultadoLyric";
+import { Container, Grid } from "@nextui-org/react";
 
 function App() {
   return (
-    <Container className="container"
-    >
+    <Container fluid="true" className="container">
       <Header />
-      <Formulario />
-
+      <Grid.Container display="flex">
+        <Formulario />
+        <ResultadoLyric />
+      </Grid.Container>
     </Container>
   );
 }
