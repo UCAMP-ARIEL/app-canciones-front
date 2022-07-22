@@ -1,18 +1,20 @@
 import { Text } from "@nextui-org/react";
+import book from '../assets/book.svg'
 
 const Header = () => {
   return (
-    <header className="App">
+    <header className="header">
+      <img alt="logo" src={book} style={{width: '36px'}} />
       <Text
         align="center"
         h1
         size={40}
         css={{
-            textGradient: "45deg, $yellow600 -20%, $red600 100%",
+            textGradient: "45deg, $yellow600 -20%, $red600 100%", marginBottom:'10px'
         }}
         weight="bold"
       >
-        Lyrics
+        LyricsBook
       </Text>
     </header>
   );

@@ -14,7 +14,7 @@ const Formulario = () => {
       <div
         style={{ display: "flex", justifyContent: "center", marginTop: "20px" }}
       >
-        <Input labelPlaceholder="Artista" />
+        <Input placeholder="Artista" />
         <Button color="warning" auto>
           buscar
         </Button>
@@ -23,7 +23,7 @@ const Formulario = () => {
       <div
         style={{ display: "flex", justifyContent: "center", marginTop: "15px" }}
       >
-        <Input labelPlaceholder="Letra" />
+        <Input placeholder="Letra" />
         <Button color="warning" auto>
           buscar
         </Button>

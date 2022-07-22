@@ -11,7 +11,7 @@ const ResultadosAlbum = () => {
         width: "90%",
         marginLeft: "auto",
         marginRight: "auto",
-        marginTop: "20px",
+        marginTop: "30px",
         borderRadius: "5px",
       }}
       justify="center"
