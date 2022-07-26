@@ -4,7 +4,7 @@ import book from '../assets/book.svg'
 const Header = () => {
   return (
     <header className="header">
-      <img alt="logo" src={book} style={{width: '36px'}} />
+      <img alt="logo" src={book} style={{width: '36px', transform: 'rotate(40deg)', marginRight:'5px'}} />
       <Text
         align="center"
         h1
